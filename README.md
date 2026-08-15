@@ -4,6 +4,8 @@ Ready-to-use Home Assistant dashboards for Creality printers running the
 [ha_creality_ws](https://github.com/3dg1luk43/ha_creality_ws) integration. Built
 with stock Lovelace cards only, so no custom frontend cards are required.
 
+![Creality K2 Plus dashboard](dashboards/k2-plus/k2-plus-dashboard.jpg)
+
 ## Printers
 
 | Printer | Full dashboard | Single card |
@@ -11,6 +13,21 @@ with stock Lovelace cards only, so no custom frontend cards are required.
 | Creality K2 Plus | [k2-plus-dashboard.yaml](dashboards/k2-plus/k2-plus-dashboard.yaml) | [k2-plus-card.yaml](dashboards/k2-plus/k2-plus-card.yaml) |
 
 Have another Creality model? Contributions are welcome (see [Contributing](#contributing)).
+
+## What's on the K2 Plus dashboard
+
+- Live camera feed
+- Print status: progress, layer, time left and ETA, speed, flow, and material
+- Current model preview image (auto-hides when the printer is idle)
+- Temperature gauges for nozzle, bed, and chamber, with severity colors
+- Adjustable temperature targets and print tuning from inline sliders
+- XYZ position readout
+- Print controls: pause, resume, stop (with confirmation), and home
+- Chamber light toggle and fan controls (model, case, side)
+- Dual CFS box filament tables (type, color, remaining percent) plus external filament status
+- A 2-hour temperature history graph
+- System and filament status with a reconnect button
+- An attention banner when the printer errors or stops
 
 ## Setup
 
